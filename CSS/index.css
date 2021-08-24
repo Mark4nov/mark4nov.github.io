@@ -1,0 +1,115 @@
+html{
+    font-size: 62.5%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 1.6rem;
+    background-color: #165044ff;
+}
+
+/*  HEADER  */
+
+header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: white;
+}
+
+header .header-logo{
+    display: flex;
+    align-self: flex-start;
+}
+
+header .header-logo h1{
+    display: flex;
+    align-items: center;
+}
+
+header nav{
+    display: flex;
+    align-items: center;
+}
+
+header .header-nav{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+header .header-nav a{
+    color: white;
+    text-decoration: none;
+    margin: 1rem;
+    padding: 0.5rem;
+    border: 0.1rem solid #222;
+    border-radius: 0.5rem;
+}
+
+header .header-nav a:hover{
+    background-color: orange;
+    border: 0.1rem solid orange;
+    box-shadow: 0.2rem 0.2rem #222;
+}
+
+/* MAIN */
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    height: 550px;
+
+}
+
+main .main-experiencesContainer{
+    background-color: #008066ff;
+    height: 100%;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+}
+
+main .main-experiencesContainer h1{
+    margin: 2rem;
+    color: rgb(13, 27, 23);
+}
+
+main .main-experiencesContainer button{
+    text-decoration: none;
+    padding: 0.5rem;
+    border: 0.1rem solid #222;
+    margin-bottom: 0.5rem;
+    width: 100%;
+    height: 5vh;
+}
+
+main .main-historyContainer{
+    padding: 1rem;
+    width: 80%;
+}
+
+main .main-historyContainer__history{
+    background-color: #0b2822ff;
+    color: white;
+    height: 100%;
+    padding: 2rem;
+}
+
+/* FOOTER */
+
+footer{
+    height: 6vh;
+    background-color: #37c8abff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
